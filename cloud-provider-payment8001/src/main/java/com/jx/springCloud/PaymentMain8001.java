@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient//未来将放弃eureka
-@EnableDiscoveryClient//常用haha
+@EnableDiscoveryClient//常用 hot-fix分支修改
 public class PaymentMain8001 {
     public static void main(String[] args) {
         SpringApplication.run(PaymentMain8001.class, args);
