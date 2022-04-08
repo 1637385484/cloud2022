@@ -8,6 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 //hot-fix合并冲突
 //修改项目推送代码到远程仓库
 //通过ssh推送代码
+//通过ssh拉取代码
 @SpringBootApplication
 @EnableEurekaClient//未来将放弃eureka
 @EnableDiscoveryClient//常用 hot-fix分支修改
