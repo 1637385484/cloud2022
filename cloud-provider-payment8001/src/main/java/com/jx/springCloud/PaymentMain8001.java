@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-
+//hot-fix合并冲突
 @SpringBootApplication
 @EnableEurekaClient//未来将放弃eureka
 @EnableDiscoveryClient//常用 hot-fix分支修改
